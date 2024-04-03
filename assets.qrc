@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>assets/apartment.svg</file>
+        <file>assets/delete.svg</file>
+        <file>assets/menu.svg</file>
+        <file>assets/person.svg</file>
+        <file>assets/schedule.svg</file>
+        <file>assets/work.svg</file>
+        <file>assets/fingerprint.svg</file>
+        <file>assets/create.svg</file>
+        <file>assets/edit.svg</file>
+    </qresource>
+    <qresource prefix="/themes">
+        <file>theme.qss</file>
+    </qresource>
+</RCC>

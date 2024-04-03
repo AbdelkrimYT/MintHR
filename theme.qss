@@ -1,0 +1,40 @@
+QMainWindow {
+    background-color: rgb(0, 188, 212);
+}
+
+#BB {
+    background-color: red;
+}
+
+QStatusBar {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(255, 255, 141);
+    color: white;
+}
+
+#MainWidget::tab-bar {
+    alignment: left;
+}
+
+#MainWidget > QTabBar::tab {
+    background-color: rgb(0, 188, 212);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(0, 188, 212);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+} 
+
+#MainWidget > QTabBar::tab:selected {
+    border-bottom-color: rgb(255, 255, 141);
+}
+
+#MainWidget::pane {
+    border: none;
+    margin: 10px;
+}
+
+QTableView {
+}
